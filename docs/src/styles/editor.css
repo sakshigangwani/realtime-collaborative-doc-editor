@@ -1,0 +1,25 @@
+.editor-container{
+  width:100vw;
+  min-height:calc(100vh - 120px);
+
+  background:#edf2fa;
+
+  display:flex;
+  justify-content:center;
+
+  padding:40px 0;
+}
+
+.editor-page{
+  width:1000px;
+  min-height:900px;
+
+  background:white;
+  padding:60px;
+
+  border-radius:6px;
+
+  box-shadow:
+  0 2px 6px rgba(0,0,0,0.08),
+  0 8px 20px rgba(0,0,0,0.06);
+}
